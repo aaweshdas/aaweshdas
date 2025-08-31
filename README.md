@@ -1,7 +1,7 @@
 ![logo](https://github.com/aaweshdas/aaweshdas/blob/main/241765440-80728820-e06b-4f96-9c9e-9df46f0cc0a5.gif)
 
-  # 💫 Hi 👋, I'm Aawesh
-<h3 align="center">I'm an Indian student who is studying computer science and Engineering .</h3>
+  # 💫 Hi 👋, I'm Aawesh Kr
+<h3 align="center">I'm an Indian student who is currently studying computer science and Engineering .</h3>
 
 
 Email Me 👉 ✉️ **aaravdas208@gmail.com** For Tech Support/Project or Anything Else. 😊😊
