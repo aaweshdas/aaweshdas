@@ -10,7 +10,8 @@ Email Me 👉 ✉️ **aaravdas208@gmail.com** For Tech Support/Project or Anyth
 - 🌱 **I’m currently learning:** Competitive Programming
 - 👯 **I’m looking to collaborate on:** Dorothy a Personal AI
 - 🤔 **I’m looking for help with:** Dorothy AI
-- 💬 **Ask me about:** Tech Support, My Life Goals.
+- 💬 **Ask me about:** Tech Support.
+- 💬 **Don't ask me about:** My Life Goals.
 - 📫 **How to reach me:** Enter your email here: aaravdas208@gmail.com
 - 😄 **Pronouns:** Mr. Aawesh
 - ⚡ **Fun fact:** I Love Tech and Tech Loves Me
