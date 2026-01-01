@@ -55,3 +55,181 @@ Email Me 👉 ✉️ **aaravdas208@gmail.com** For Tech Support/Project or Anyth
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+---
+
+## Icon Cloud (Next.js + Tailwind + shadcn) – All code & steps in one place
+
+> Note: This React component needs a Next.js/TypeScript/Tailwind setup. GitHub README won’t execute it; the code below is for your app. Keep components in `/src/components/ui` (shadcn convention) and use the App Router (`/src/app`).
+
+### 1) Install deps
+```bash
+npm install react react-dom next
+npm install next-themes react-icon-cloud
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+### 2) Tailwind config basics
+```js
+// tailwind.config.js or .ts
+module.exports = {
+  darkMode: "class",
+  content: [
+    "./src/app/**/*.{ts,tsx}",
+    "./src/components/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
+  theme: { extend: {} },
+  plugins: [],
+}
+```
+`globals.css` should include:
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+### 3) Theme provider (App Router)
+```tsx
+// src/app/layout.tsx
+import { ThemeProvider } from "next-themes"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "App",
+  description: "Icon cloud demo",
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html suppressHydrationWarning>
+      <body>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
+    </html>
+  )
+}
+```
+
+### 4) Component (place in `/src/components/ui/interactive-icon-cloud.tsx`)
+```tsx
+"use client"
+
+import { useEffect, useMemo, useState } from "react"
+import { useTheme } from "next-themes"
+import {
+  Cloud,
+  fetchSimpleIcons,
+  ICloud,
+  renderSimpleIcon,
+  SimpleIcon,
+} from "react-icon-cloud"
+
+export const cloudProps: Omit<ICloud, "children"> = {
+  containerProps: {
+    style: {
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      width: "100%",
+      paddingTop: 40,
+    },
+  },
+  options: {
+    reverse: true,
+    depth: 1,
+    wheelZoom: false,
+    imageScale: 2,
+    activeCursor: "default",
+    tooltip: "native",
+    initial: [0.1, -0.1],
+    clickToFront: 500,
+    tooltipDelay: 0,
+    outlineColour: "#0000",
+    maxSpeed: 0.04,
+    minSpeed: 0.02,
+    // dragControl: false,
+  },
+}
+
+export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
+  const bgHex = theme === "light" ? "#f3f2ef" : "#080510"
+  const fallbackHex = theme === "light" ? "#6e6e73" : "#ffffff"
+  const minContrastRatio = theme === "dark" ? 2 : 1.2
+
+  return renderSimpleIcon({
+    icon,
+    bgHex,
+    fallbackHex,
+    minContrastRatio,
+    size: 42,
+    aProps: {
+      href: undefined,
+      target: undefined,
+      rel: undefined,
+      onClick: (e: any) => e.preventDefault(),
+    },
+  })
+}
+
+export type DynamicCloudProps = {
+  iconSlugs: string[]
+}
+
+type IconData = Awaited<ReturnType<typeof fetchSimpleIcons>>
+
+export function IconCloud({ iconSlugs }: DynamicCloudProps) {
+  const [data, setData] = useState<IconData | null>(null)
+  const { theme } = useTheme()
+
+  useEffect(() => {
+    fetchSimpleIcons({ slugs: iconSlugs }).then(setData)
+  }, [iconSlugs])
+
+  const renderedIcons = useMemo(() => {
+    if (!data) return null
+
+    return Object.values(data.simpleIcons).map((icon) =>
+      renderCustomIcon(icon, theme || "light"),
+    )
+  }, [data, theme])
+
+  return (
+    // @ts-ignore
+    <Cloud {...cloudProps}>
+      <>{renderedIcons}</>
+    </Cloud>
+  )
+}
+```
+
+### 5) Demo page (App Router) `src/app/icon-cloud-demo/page.tsx`
+```tsx
+import { IconCloud } from "@/components/ui/interactive-icon-cloud"
+
+const slugs = [
+  "typescript", "javascript", "dart", "java", "react", "flutter", "android",
+  "html5", "css3", "nodedotjs", "express", "nextdotjs", "prisma", "amazonaws",
+  "postgresql", "firebase", "nginx", "vercel", "testinglibrary", "jest",
+  "cypress", "docker", "git", "jira", "github", "gitlab", "visualstudiocode",
+  "androidstudio", "sonarqube", "figma",
+]
+
+export default function IconCloudDemoPage() {
+  return (
+    <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8">
+      <IconCloud iconSlugs={slugs} />
+    </div>
+  )
+}
+```
+
+### 6) Run
+```bash
+npm run dev
+# open http://localhost:3000/icon-cloud-demo
+```
