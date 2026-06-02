@@ -107,22 +107,48 @@ $ cat profile.json
 ## `> featured_projects`
 
 <table width="100%">
+  <!-- Flagship Project: Dorothy AI -->
   <tr>
-    <td width="40%" valign="middle" align="center">
-      <a href="https://github.com/aaweshdas">
-        <img src="https://raw.githubusercontent.com/aaweshdas/aaweshdas/main/dorothy_mockup.png" alt="Dorothy AI UI Teaser" width="100%" style="border-radius: 8px; border: 1.5px solid #00F5FF;"/>
+    <td width="42%" valign="middle" align="center">
+      <a href="https://github.com/aaweshdas/DOROTHY">
+        <img src="https://raw.githubusercontent.com/aaweshdas/aaweshdas/main/dorothy_mockup.png" alt="Dorothy AI Screenshot" width="100%" style="border-radius: 8px; border: 1.5px solid #00F5FF;"/>
       </a>
     </td>
-    <td width="60%" valign="top" style="padding-left: 15px;">
-      <h4>🤖 Dorothy AI (Flagship)</h4>
-      <p><i>Next-generation voice-enabled personal assistant. Features contextual long-term memory, custom agent tools, and deep user personalization.</i></p>
-      <p><b>Tech:</b> <code>Python</code> | <code>Next.js</code> | <code>Supabase</code> | <code>Groq</code> | <code>Deepgram</code></p>
-      <hr/>
+    <td width="58%" valign="top" style="padding-left: 15px;">
+      <h3 style="margin-top: 0;">🤖 Dorothy AI &nbsp; <a href="https://github.com/aaweshdas/DOROTHY"><img src="https://img.shields.io/badge/Flagship-00F5FF?style=flat-square" alt="Flagship"/></a></h3>
+      <p><i>A next-generation, voice-enabled personal AI companion. Features contextual long-term memory, custom agent tools, and deep user personalization.</i></p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
+        <img src="https://img.shields.io/badge/Groq-F89C1C?style=flat-square" alt="Groq"/>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table width="100%">
+  <!-- Supporting Projects Grid -->
+  <tr>
+    <td width="50%" valign="top" style="padding-right: 15px;">
       <h4>📊 CP Archive</h4>
-      <p><i>Optimized DSA solutions across LeetCode, Codeforces, and GFG, cataloged for rapid reference and complexity tracking.</i></p>
-      <hr/>
+      <p><i>Structured archive of optimized DSA solutions, cataloged for complexity tracking.</i></p>
+      <p>
+        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
+        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode"/>
+        <img src="https://img.shields.io/badge/Codeforces-445?style=flat-square" alt="Codeforces"/>
+      </p>
+    </td>
+    <td width="50%" valign="top" style="padding-left: 15px; border-left: 1.5px solid #1E293B;">
       <h4>🎮 Game Prototype</h4>
-      <p><i>Procedural 3D exploration sandbox featuring AI-driven NPCs and smart behaviors.</i></p>
+      <p><i>3D procedural world exploration sandbox with AI-driven NPCs in Unity + Blender.</i></p>
+      <p>
+        <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" alt="Unity"/>
+        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#"/>
+        <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white" alt="Blender"/>
+      </p>
     </td>
   </tr>
 </table>
