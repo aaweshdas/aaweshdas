@@ -13,13 +13,6 @@
 
 <br/>
 
-<!-- STATUS BADGES ROW -->
-![Status](https://img.shields.io/badge/STATUS-AVAILABLE_TO_COLLABORATE-00F5FF?style=for-the-badge&labelColor=050A0F)
-![Year](https://img.shields.io/badge/B.TECH_CSE-YEAR_3_of_4-7C3AFF?style=for-the-badge&labelColor=050A0F)
-![Grad](https://img.shields.io/badge/GRADUATION-2028-FF2D78?style=for-the-badge&labelColor=050A0F)
-
-<br/>
-
 <!-- PROFILE VIEWS + TROPHIES -->
 <img src="https://komarev.com/ghpvc/?username=aaweshdas&label=PROFILE+VIEWS&color=00F5FF&style=flat-square&labelColor=050A0F" alt="Profile views" />
 
