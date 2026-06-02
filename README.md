@@ -127,12 +127,12 @@ $ cat profile.json
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=aaweshdas&theme=transparent&hide_border=true&title_color=00F5FF&icon_color=7C3AFF&text_color=7BA8CC&show_icons=true&include_all_commits=true" alt="GitHub Stats"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaweshdas&theme=transparent&hide_border=true&title_color=00F5FF&text_color=7BA8CC&layout=compact" alt="Top Languages"/>
+<img height="180em" src="https://github-stats-extended.vercel.app/api?username=aaweshdas&theme=transparent&hide_border=true&title_color=00F5FF&icon_color=7C3AFF&text_color=7BA8CC&show_icons=true&include_all_commits=true" alt="GitHub Stats"/>
+<img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=aaweshdas&theme=transparent&hide_border=true&title_color=00F5FF&text_color=7BA8CC&layout=compact" alt="Top Languages"/>
 
 <br/>
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=aaweshdas&theme=transparent&hide_border=true&ring=00F5FF&fire=FF2D78&currStreakLabel=7C3AFF&sideLabels=4A6B8A&dates=4A6B8A&currStreakNum=00F5FF&sideNums=7BA8CC" alt="Streak Stats"/>
+<img src="https://streak-stats.demolab.com/?user=aaweshdas&theme=transparent&hide_border=true&ring=00F5FF&fire=FF2D78&currStreakLabel=7C3AFF&sideLabels=4A6B8A&dates=4A6B8A&currStreakNum=00F5FF&sideNums=7BA8CC" alt="Streak Stats"/>
 
 <br/>
 
