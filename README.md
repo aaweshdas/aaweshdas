@@ -130,7 +130,7 @@ $ cat profile.json
     </td>
   </tr>
 </table>
----
+
 
 ## `> featured_projects`
 
