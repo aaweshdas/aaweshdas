@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="profile_banner.svg" alt="Aawesh Kr Banner" width="100%"/>
+<img src="https://raw.githubusercontent.com/aaweshdas/aaweshdas/main/profile_banner.svg" alt="Aawesh Kr Banner" width="100%"/>
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
