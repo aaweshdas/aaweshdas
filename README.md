@@ -147,7 +147,7 @@ $ cat profile.json
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=aaweshdas&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1)
+![Trophies](https://github-profile-trophy-fork-two.vercel.app/?username=aaweshdas&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1)
 
 </div>
 
