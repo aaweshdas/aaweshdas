@@ -27,6 +27,24 @@
 
 ---
 
+## `> connect --social`
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/EMAIL-aaravdas208%40gmail.com-00F5FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050A0F)](mailto:aaravdas208@gmail.com)
+
+<br/>
+
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/aaweshdas)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aaweshdas)
+[![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/aaweshdas)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@aaweshdas)
+[![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://twitch.tv/aaweshdas)
+
+</div>
+
+---
+
 ## `> whoami`
 
 ```bash
@@ -211,24 +229,6 @@ $ cat profile.json
 
 ---
 
-
-## `> connect --social`
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/EMAIL-aaravdas208%40gmail.com-00F5FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=050A0F)](mailto:aaravdas208@gmail.com)
-
-<br/>
-
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/aaweshdas)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aaweshdas)
-[![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/aaweshdas)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@aaweshdas)
-[![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](https://twitch.tv/aaweshdas)
-
-</div>
-
----
 
 ## `> support --buy_coffee`
 
