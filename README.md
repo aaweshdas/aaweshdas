@@ -186,19 +186,6 @@ $ cat profile.json
 
 ---
 
-## `> random_quote`
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-
-## `> snake --contribution-graph`
-
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
-
----
 
 ## `> connect --social`
 
