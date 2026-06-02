@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302b63,100:24243e&height=200&section=header&text=AAWESH%20KR&fontSize=60&fontColor=00F5FF&fontAlignY=38&animation=fadeIn&desc=CSE%20·%20Builder%20·%20AI%20Enthusiast%20·%20Class%20of%202028&descAlignY=58&descSize=16&descColor=7BA8CC&fontFamily=Consolas" alt="Header" width="100%"/>
+<img src="profile_banner.svg" alt="Aawesh Kr Banner" width="100%"/>
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
