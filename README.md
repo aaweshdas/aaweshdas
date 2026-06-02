@@ -41,12 +41,12 @@
 ```bash
 $ cat profile.json
 {
-  "name"       : "Aawesh Kr",
+  "name"       : "Aawesh Kr Das",
   "alias"      : "aaweshdas",
   "role"       : "B.Tech CSE Student · Full-Stack Developer · AI Builder",
   "university" : "India",
   "year"       : "3rd Year",
-  "graduating" : 2028,
+  "graduating" : "2028",
   "pronouns"   : "He/Him · Mr. Aawesh",
   "flagship"   : "Dorothy — A Personal AI System",
   "focus"      : ["Full-Stack Dev", "Competitive Programming", "AI Engineering"],
