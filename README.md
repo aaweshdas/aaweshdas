@@ -106,20 +106,26 @@ $ cat profile.json
 
 ## `> featured_projects`
 
-<div align="center">
-
-<!-- Dorothy AI -->
-<a href="https://github.com/aaweshdas">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aaweshdas&repo=Dorothy-AI&theme=transparent&hide_border=true&title_color=00F5FF&icon_color=7C3AFF&text_color=7BA8CC&border_color=00F5FF22" alt="Dorothy AI"/>
-</a>
-
-</div>
-
-> **🤖 Dorothy** — My flagship project. A personal AI companion with voice, context memory, and deep personalisation. Built on Python, Next.js, and modern LLM APIs.
->
-> **📊 CP Archive** — Personal competitive programming solution archive across Codeforces, LeetCode, and GFG.
->
-> **🎮 Game Prototype** — 3D procedural world exploration with AI-driven NPCs in Unity + Blender.
+<table width="100%">
+  <tr>
+    <td width="40%" valign="middle" align="center">
+      <a href="https://github.com/aaweshdas">
+        <img src="https://raw.githubusercontent.com/aaweshdas/aaweshdas/main/dorothy_mockup.png" alt="Dorothy AI UI Teaser" width="100%" style="border-radius: 8px; border: 1.5px solid #00F5FF;"/>
+      </a>
+    </td>
+    <td width="60%" valign="top" style="padding-left: 15px;">
+      <h4>🤖 Dorothy AI (Flagship)</h4>
+      <p><i>Next-generation voice-enabled personal assistant. Features contextual long-term memory, custom agent tools, and deep user personalization.</i></p>
+      <p><b>Tech:</b> <code>Python</code> | <code>Next.js</code> | <code>Supabase</code> | <code>Groq</code> | <code>Deepgram</code></p>
+      <hr/>
+      <h4>📊 CP Archive</h4>
+      <p><i>Optimized DSA solutions across LeetCode, Codeforces, and GFG, cataloged for rapid reference and complexity tracking.</i></p>
+      <hr/>
+      <h4>🎮 Game Prototype</h4>
+      <p><i>Procedural 3D exploration sandbox featuring AI-driven NPCs and smart behaviors.</i></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
