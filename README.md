@@ -156,19 +156,13 @@ $ cat profile.json
 ## `> timeline --career`
 
 ```
-2021 ──── Started B.Tech CSE ──────────────── First line of code. Hello, World.
+2024 ──── Started B.Tech CSE ──────────────── First line of code. Hello, World.
   │
-2022 ──── Discovered Full-Stack ───────────── React. Node. Never looked back.
+2025 ──── Web Dev & CP Foundations ────────── React · Node · LeetCode & GFG
   │
-2023 ──── Competitive Programming ─────────── Codeforces · LeetCode · GFG
+2026 ──── [CURRENT] Year 3 ────────────────── Conceived & developing Dorothy AI 🤖
   │
-2024 ──── Dorothy AI — Conceived ──────────── Vision: an AI that truly knows you
-  │
-2025 ──── Dorothy AI — In Development ──────── Building in public
-  │
-2026 ──── [CURRENT] Year 3 ────────────────── Deep work. Deep focus.
-  │
-2027 ──── Final Year Projects ─────────────── Thesis. Internship. Ship it.
+2027 ──── Final Year Projects & Internships ── SWE Internships · System Design · Ship it
   │
 2028 ──── 🎓 GRADUATION ────────────────────── B.Tech CSE · The beginning, not the end.
 ```
