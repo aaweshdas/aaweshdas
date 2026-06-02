@@ -91,7 +91,7 @@
   <a href="https://instagram.com/aaweshdas" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
   </a>&nbsp;
-  <a href="https://x.com/aaweshdas" target="_blank">
+  <a href="https://x.com/aawesh_das" target="_blank">
     <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" />
   </a>&nbsp;
   <a href="https://youtube.com/@aaweshdas" target="_blank">
