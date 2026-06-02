@@ -111,7 +111,7 @@ $ cat profile.json
   <tr>
     <td width="42%" valign="middle" align="center">
       <a href="https://github.com/aaweshdas/DOROTHY">
-        <img src="https://raw.githubusercontent.com/aaweshdas/aaweshdas/main/dorothy_mockup.png" alt="Dorothy AI Screenshot" width="100%" style="border-radius: 8px; border: 1.5px solid #00F5FF;"/>
+        <img src="https://raw.githubusercontent.com/aaweshdas/aaweshdas/main/dorothy_preview.png" alt="Dorothy AI Screenshot" width="100%" style="border-radius: 8px; border: 1.5px solid #00F5FF;"/>
       </a>
     </td>
     <td width="58%" valign="top" style="padding-left: 15px;">
@@ -142,12 +142,12 @@ $ cat profile.json
       </p>
     </td>
     <td width="50%" valign="top" style="padding-left: 15px; border-left: 1.5px solid #1E293B;">
-      <h4>🎮 Game Prototype</h4>
-      <p><i>3D procedural world exploration sandbox with AI-driven NPCs in Unity + Blender.</i></p>
+      <h4>📱 <a href="https://github.com/aaweshdas/The-New-Era-_-Nexal-APP-">Nexal APP</a></h4>
+      <p><i>AI-powered social media experience with real-time streaming voice chat, vision analysis, and orbital UI menus.</i></p>
       <p>
-        <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" alt="Unity"/>
-        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#"/>
-        <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white" alt="Blender"/>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+        <img src="https://img.shields.io/badge/Groq-F89C1C?style=flat-square" alt="Groq"/>
       </p>
     </td>
   </tr>
