@@ -5,7 +5,7 @@
 <div align="center"> 
  
 <img src="https://raw.githubusercontent.com/aaweshdas/aaweshdas/main/profile_banner.svg" alt="Aawesh Kr Banner" width="100%"/>
- 
+  
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=18&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Computer+Science+%26+Engineering+%E2%80%A2+Year+3;Full-Stack+Developer+%7C+AI+Builder;Architecting+Dorothy+%E2%80%94+A+Personal+AI;Competitive+Programmer+%7C+DSA+Grinder;Graduating+2028+%F0%9F%8E%93+%7C+Building+the+Future" alt="Typing SVG" />
